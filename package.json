@@ -1,0 +1,34 @@
+{
+  "name": "@lbcron/apex-quant-dsl",
+  "version": "2.0.0",
+  "description": "Zero-dependency Quantitative Expression DSL compiler, recursive-descent AST parser, and vectorized time-series indicator engine in TypeScript.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "quantitative-finance",
+    "dsl",
+    "compiler",
+    "parser",
+    "ast",
+    "time-series",
+    "technical-indicators",
+    "typescript",
+    "algotrading"
+  ],
+  "author": "Ronan Chen-Lopes <ronan.chenlopes@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LBCron/apex-quant-dsl.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}
